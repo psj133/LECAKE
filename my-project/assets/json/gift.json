@@ -1,0 +1,37 @@
+[{
+  "id": 1,
+  "name": "金砖形费南雪礼盒",
+  "price": "￥298",
+  "style": ["顺丰物流配送"],
+  "giftImg": [
+    "../img/list_18263.jpg"
+  ]
+},
+  {
+    "id": 2,
+    "name": "蔓越莓曲奇礼盒(礼盒)（樱花粉）",
+    "price": "￥98",
+    "style": [],
+    "giftImg": [
+      "../img/list_17474.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "千层蝴蝶酥FOR me(原味)",
+    "price": "￥98",
+    "style": [],
+    "giftImg": [
+      "../img/list_17018.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "乐熊熊曲奇礼盒",
+    "price": "￥128",
+    "style": [],
+    "giftImg": [
+      "../img/list_13291.jpg"
+    ]
+  }
+]

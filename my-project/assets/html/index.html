@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/index/reset.css">
+    <link rel="stylesheet" href="../css/index/index.css">
+    <link rel="stylesheet" href="../css/index/iconfont.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="top-bar">
+                <div class="top">
+                    <div class="inner">
+                        <div class="right">
+                            <span></span>
+                            <a href="login.html" class="sign">登录</a>
+                            <b>/</b>
+                            <a href="resgister.html" class="register sign">注册</a>
+                            <a href="index.html" class="exit" style="display: none">退出登录</a>
+                            &nbsp; &nbsp; &nbsp; &nbsp;
+                            <a href="##" id="concerned">
+                                <span class="iconfont icon-weixin"></span>
+                                <span>微信公众号</span>
+                                <img id="wx" src="../img/weixin.png" alt="" style="width: 120px;height: 120px; position: absolute;right: 50px;display: none">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <div class="inner">
+                        <div class="search-bar">
+                            <div class="addr">
+                                <a href="#" class="iconfont icon-didian" style="font-size: 30px"></a>
+                                <a href="#" id="city">上海</a>
+                                <a href="#">查询地址是否可配送</a>
+                            </div>
+                            <div class="tanchu">
+                                <div class="inner1">
+                                    <div class="top">
+                                        <span class="current" style="background: #ffffff">当前选择城市:&nbsp<i class="iconfont icon-didian"></i><a
+                                                href="#">上海</a></span>
+                                        <span class="close" style="background: #ffffff">&times;</span>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="city-list">
+                                        <span class="all">全部城市:</span>&nbsp;&nbsp;<a href="#" >上海</a><a href="#">北京</a><a href="#">广州</a><a href="#">南京</a><a href="#">成都</a><a href="#">深圳</a><br>
+                                        <div><a href="#">杭州</a><a href="#">苏州</a><a href="#">天津</a><a href="#">宁波</a><a href="#">无锡</a><a href="#">绍兴</a></div>
+                                        <div><a href="#">嘉兴</a><a href="#">重庆</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logo">
+                                <a href=""><img src="../img/logo_new.png" alt=""></a>
+                            </div>
+                            <div class="sousuo">
+                                <input type="text" placeholder="雪域牛乳芝士">
+                                &nbsp;&nbsp;
+                                <a href="#" class="iconfont icon-sousuo"></a>
+                                &nbsp;&nbsp;
+                                <a href="shopcart.html" class=" iconfont icon-gouwuche1"></a>
+                            </div>
+
+                        </div>
+                        <nav>
+                            <ul id="nav">
+                                <li class="li1">
+                                    <a href="#" class="active mine">
+                                        <span class="iconfont icon-02" style="display: inline-block"></span>
+                                        <span>首页</span>
+                                    </a>
+                                </li>
+                                <li class="li1">
+                                    <a href="#" class="mine">
+                                        <span class="iconfont icon-02"></span>
+                                        <span>蛋糕</span>
+                                    </a>
+                                </li>
+                                <li class="li1">
+                                    <a href="#" class="mine">
+                                        <span class="iconfont icon-02"></span>
+                                        <span>礼品</span>
+                                    </a>
+                                </li>
+                                <li class="li1">
+                                    <a href="#" class="mine">
+                                        <span class="iconfont icon-02"></span>
+                                        <span>我的诺心</span>
+                                    </a>
+                                    <ul id="droplist1">
+                                        <li><a href="#">LECLUB</a></li>
+                                        <li><a href="#">我的订单</a></li>
+                                        <li><a href="#">找回密码</a></li>
+                                        <li><a href="#">礼品专区</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="nav">
+               <div class="nav-inner">
+                    <div class="logo2">
+                        <a href="index.html"><img src="../img/logo_new.png"></a>
+                    </div>
+                   <ul class="list">
+                       <li>
+                           <a href="#" class="active">
+                               <span class="iconfont icon-02" style="display: inline-block"></span>
+                               <span>首页</span>
+                           </a>
+                       </li>
+                       <li>
+                           <a href="#">
+                               <span class="iconfont icon-02"></span>
+                               <span>蛋糕</span>
+                           </a>
+                       </li>
+                       <li>
+                           <a href="#">
+                               <span class="iconfont icon-02"></span>
+                               <span>礼品</span>
+                           </a>
+                       </li>
+                       <li class="last">
+                           <a href="#">
+                               <span class="iconfont icon-02"></span>
+                               <span>我的诺心</span>
+                               <ul class="droplist">
+                                   <li><a href="#" class="type">LECLUB</a></li>
+                                   <li><a href="#" class="type">我的订单</a></li>
+                                   <li><a href="#" class="type">找回密码</a></li>
+                                   <li><a href="#" class="type">会员专区</a></li>
+                               </ul>
+                           </a>
+                       </li>
+                   </ul>
+                   <div class="others">
+                       <a href="#">
+                           <span class="iconfont icon-didian"></span>
+                           <span id="city1">上海</span>
+                       </a>
+                       <a href="#" class="iconfont icon-sousuo"></a>
+                       <a href="#" class="iconfont icon-Group-" id="group1"></a>
+                       <a href="shopcart.html" class="iconfont icon-gouwuche1"></a>
+                       <ul class="login">
+                           <li><a href="login.html">登录</a></li>
+                           <li><a href="resgister.html">注册</a></li>
+                       </ul>
+                       <div class="traingle"></div>
+                   </div>
+               </div>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="ft-carousel" id="carousel_1">
+                <ul class="carousel-inner">
+                    <li class="carousel-item"><img src="../img/lunbo1.jpg" /></li>
+                    <li class="carousel-item"><img src="../img/lunbo2.JPG" /></li>
+                    <li class="carousel-item"><img src="../img/lunbo3.jpg" /></li>
+                    <li class="carousel-item"><img src="../img/lunbo4.JPG" /></li>
+                </ul>
+            </div>
+        </div>
+        <main>
+            <div class="shop">
+                <div class="one">
+                    <a href="#">
+                        <img src="../img/lingquan.jpg">
+                    </a>
+                </div>
+                <div class="two">
+                    <img src="../img/jaigou.jpg" alt="">
+                </div>
+            </div>
+            <div class="ads">
+                <a href="#"><img src="../img/gift.jpg"></a>
+            </div>
+            <div class="comment">
+                <div class="ft-carousel" id="carousel_2">
+                    <ul class="carousel-inner">
+                        <li class="carousel-item">
+                            <div class="con">
+                                <div class="info">
+                                    <span id="touxiang1"></span>
+                                    <p>139****4326</p>
+                                </div>
+                                <div class="content">
+                                    <p>不错很好吃,值得推荐,还会<br>
+                                        再买,性价比很高
+                                    </p>
+                                    <i>2018-11-05</i>
+                                    <a href="#">
+                                        <img src="../img/1.png" alt="">
+                                        <p>立即购买</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="con">
+                                <div class="info">
+                                    <span id="touxiang2"></span>
+                                    <p>135****6916</p>
+                                </div>
+                                <div class="content">
+                                    <p>口感细腻,做工精致</p>
+                                    <i>2018-11-03</i>
+                                    <a href="#">
+                                        <img src="../img/2.png" alt="">
+                                        <p style="margin-top: 15px">立即购买</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="con">
+                                <div class="info">
+                                    <span id="touxiang3"></span>
+                                    <p>136****6336</p>
+                                </div>
+                                <div class="content">
+                                    <p>很好不错的,味道很好,适合<br>
+                                        目前不太喜欢吃甜的人群
+                                    </p>
+                                    <i>2018-11-01</i>
+                                    <a href="#">
+                                        <img src="../img/3.png" alt="">
+                                        <p>立即购买</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="carousel-item">
+                            <div class="con">
+                                <div class="info">
+                                    <span id="touxiang4"></span>
+                                    <p>138****7344</p>
+                                </div>
+                                <div class="content">
+                                    <p>一如既往的好吃,今年的第五<br>
+                                        个了,估计下个月还有1个
+                                    </p>
+                                    <i>2018-10-31</i>
+                                    <a href="#">
+                                        <img src="../img/4.png" alt="">
+                                        <p>立即购买</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="con">
+                                <div class="info">
+                                    <span id="touxiang5"></span>
+                                    <p>152****2416</p>
+                                </div>
+                                <div class="content">
+                                    <p>很好吃,不甜不腻,非常适合<br>
+                                        老人食用,爸妈吃了都大赞好<br>
+                                        吃,所以介绍给了朋友!
+                                    </p>
+                                    <i>2018-10-27</i>
+                                    <a href="#">
+                                        <img src="../img/5.png" style="margin-top: 5px">
+                                        <p>立即购买</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="con">
+                                <div class="info">
+                                    <span id="touxiang6"></span>
+                                    <p>138****9189</p>
+                                </div>
+                                <div class="content">
+                                    <p>蛋糕非常好看,味道也非常<br>
+                                        棒,不甜也不腻,赞~
+                                    </p>
+                                    <i>2018-10-22</i>
+                                    <a href="#">
+                                        <img src="../img/6.png" alt="">
+                                        <p>立即购买</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer style="position: relative">
+            <div class="connect">
+                <a href="#">
+                    <img src="../img/kefu.png" style="width: 30px;height: 30px;">
+                    <p>联系客服</p>
+                </a>
+                <a href="#" class="public">
+                    <img src="../img/weixins.png" style="width: 30px;height: 30px;" >
+                    <p>微信公众号</p>
+                    <img src="../img/weixin_bottom.png" style="width: 120px;height: 120px; position: absolute;right: 550px; top:-80px;display: none">
+                </a>
+            </div>
+            <div class="tel">
+
+                客服电话：4001-578-578 服务时间（08:30-22:30)
+            </div>
+            <ul class="foot-nav">
+                <li><a href="#">诺心公告</a></li>
+                <li><a href="#">关于诺心</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">客服服务</a></li>
+                <li><a href="#">食品经营许可证</a></li>
+                <li><a href="#">生产许可证</a></li>
+                <li><a href="#">预付卡协议</a></li>
+                <li><a href="#">上海工商</a></li>
+            </ul>
+            <div class="addr">诺心食品（上海）有限公司   上海徐汇区田林路140号28号楼503室  客服邮箱：services@lecake.com  公司电话：4001-578-578</div>
+            <div class="addr">copyright©2010-2018 诺心lecake.com版权所有 沪ICP备10211730</div>
+        </footer>
+    </div>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../js/carousel.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

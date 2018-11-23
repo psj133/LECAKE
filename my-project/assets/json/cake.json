@@ -1,0 +1,57 @@
+[{
+  "id" : 1,
+  "name" : "雪域牛乳芝士蛋糕",
+  "price" : "￥198",
+  "style" : ["人气爆款"],
+  "cakeImg" : "../img/cake1.jpg"
+},
+{
+"id" : 2,
+"name" : "数字蛋糕",
+"price" : "￥198",
+"style" : ["NEW"],
+"cakeImg" : "../img/cake2.jpg"
+},
+{
+"id" : 3,
+"name" : "美刀刀蛋糕",
+"price" : "￥298",
+"style" : ["人气爆款"],
+"cakeImg" : "../img/cake3.jpg"
+},
+{
+"id" : 4,
+"name" : "环游世界·春夏季蛋糕",
+"price" : "￥218",
+"style" : ["人气爆款"],
+"cakeImg" : "../img/cake4.jpg"
+},
+{
+"id" : 5,
+"name" : "盛夏·彩虹千层蛋糕",
+"price" : "￥318",
+"style" : ["NEW"],
+"cakeImg" :"../img/cake5.jpg"
+},
+{
+"id" : 6,
+"name" : "她的蛋糕",
+"price" : "￥888",
+"style" : ["NEW","限量高定"],
+"cakeImg" : "../img/cake6.jpg"
+},
+{
+"id" : 7,
+"name" : "数字蛋糕520款",
+"price" : "￥594",
+"style" : ["NEW"],
+"cakeImg" : "../img/cake7.jpg"
+},
+{
+"id" : 8,
+"name" : "怦然心动蛋糕",
+"price" : "￥198",
+"style" : ["NEW"],
+"cakeImg" : "../img/cake8.jpg"
+}
+]

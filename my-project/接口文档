@@ -1,0 +1,95 @@
+地址：http://10.9.170.6:3009
+发送方式：POST发送
+数据类型：JSON数据
+
+1、添加商品
+    请求：（req）
+    {
+        type:0,
+        item:{id:1001,icon:"img/1.png",name:"餐饮0",num:1,price:10}
+    }
+    返回：(res)
+    {
+        type:0,
+        result:[
+         item:{select:false,id:1001,icon:"img/1.png",name:"餐饮0",num:1,price:10,sum:0,delete:true},
+           ...
+        ],
+        error:null
+    }
+2、删除商品
+    请求：（req）
+        {
+            type:1,
+            item:{select:false,id:1001,icon:"img/1.png",name:"餐饮0",num:1,price:10,sum:0,delete:true},
+        }
+        返回：(res)
+        {
+            type:1,
+            result:[
+             item:{select:false,id:1001,icon:"img/1.png",name:"餐饮0",num:1,price:10,sum:0,delete:true},
+               ...
+            ],
+            error:null
+        }
+3、修改商品数量
+    请求：（req）
+            {
+                type:2,
+                num:2,
+                item:{select:false,id:1001,icon:"img/1.png",name:"餐饮0",num:1,price:10,sum:0,delete:true},
+            }
+            返回：(res)
+            {
+                type:2,
+                result:[
+                 item:{select:false,id:1001,icon:"img/1.png",name:"餐饮0",num:1,price:10,sum:0,delete:true},
+                   ...
+                ],
+                error:null
+            }
+4、商品是否选中
+    请求：（req）
+                {
+                    type:3,
+                    all:false,
+                    select:true
+                    item:{select:false,id:1001,icon:"img/1.png",name:"餐饮0",num:1,price:10,sum:0,delete:true},
+                }
+                返回：(res)
+                {
+                    type:3,
+                    result:[
+                     item:{select:false,id:1001,icon:"img/1.png",name:"餐饮0",num:1,price:10,sum:0,delete:true},
+                       ...
+                    ],
+                    error:null
+                }
+5、商品标签列表
+    请求：（req）
+                    {
+                        type:4
+                    }
+                    返回：(res)
+                    {
+                        type:4,
+                        result:[
+                         {id:1001,icon:"img/1.png",name:"餐饮0",num:1,price:10}
+                           ...
+                        ],
+                        error:null
+                    }
+6、购物车列表
+请求：（req）
+                    {
+                        type:5
+                    }
+                    返回：(res)
+                    {
+                        type:5,
+                        result:[
+                          item:{select:false,id:1001,icon:"img/1.png",name:"餐饮0",num:1,price:10,sum:0,delete:true},
+                           ...
+                        ],
+                        error:null
+                    }
